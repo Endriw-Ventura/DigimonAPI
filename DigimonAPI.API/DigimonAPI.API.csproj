@@ -12,7 +12,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DigimonAPI.Application\DigimonAPI.Application.csproj" />
-    <ProjectReference Include="..\DigimonAPI.Domain\DigimonAPI.Domain.csproj" />
     <ProjectReference Include="..\DigimonAPI.Infrastructure\DigimonAPI.Infrastructure.csproj" />
   </ItemGroup>
 

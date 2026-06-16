@@ -10,4 +10,8 @@
     <ProjectReference Include="..\DigimonAPI.Domain\DigimonAPI.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
+  </ItemGroup>
+
 </Project>

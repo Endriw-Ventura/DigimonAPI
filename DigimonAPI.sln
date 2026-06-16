@@ -3,13 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.37328.6
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigimonAPI", "DigimonAPI.csproj", "{57FCC42E-E395-419F-B6CA-C46B12ED9D1F}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigimonAPI.Application", "DigimonAPI.Application\DigimonAPI.Application.csproj", "{2208F3B9-2C40-62F3-982D-0EAA2EBF4A39}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigimonAPI.Domain", "DigimonAPI.Domain\DigimonAPI.Domain.csproj", "{CF49361E-BB91-88E3-C1D5-12C85BA6EA21}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigimonAPI.Infrastructure", "DigimonAPI.Infrastructure\DigimonAPI.Infrastructure.csproj", "{605EE9B7-1A7E-C9D6-E5D4-F16183A623CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigimonAPI.API", "DigimonAPI.API\DigimonAPI.API.csproj", "{8DA68110-B10D-CE54-2637-7D2693D81EDA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		Dockerfile = Dockerfile
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +25,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{57FCC42E-E395-419F-B6CA-C46B12ED9D1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{57FCC42E-E395-419F-B6CA-C46B12ED9D1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{57FCC42E-E395-419F-B6CA-C46B12ED9D1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{57FCC42E-E395-419F-B6CA-C46B12ED9D1F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2208F3B9-2C40-62F3-982D-0EAA2EBF4A39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2208F3B9-2C40-62F3-982D-0EAA2EBF4A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2208F3B9-2C40-62F3-982D-0EAA2EBF4A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +37,10 @@ Global
 		{605EE9B7-1A7E-C9D6-E5D4-F16183A623CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{605EE9B7-1A7E-C9D6-E5D4-F16183A623CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{605EE9B7-1A7E-C9D6-E5D4-F16183A623CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DA68110-B10D-CE54-2637-7D2693D81EDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DA68110-B10D-CE54-2637-7D2693D81EDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DA68110-B10D-CE54-2637-7D2693D81EDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DA68110-B10D-CE54-2637-7D2693D81EDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
