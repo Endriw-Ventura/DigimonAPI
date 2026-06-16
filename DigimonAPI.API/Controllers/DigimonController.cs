@@ -1,7 +1,7 @@
 ﻿using DigimonAPI.Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
-namespace DigimonAPI.Controllers
+namespace DigimonAPI.DigimonAPI.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]
