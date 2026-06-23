@@ -12,7 +12,17 @@ builder.Services.AddHttpClient<IDigimonIntegration, DigimonIntegration>((client)
 });
 builder.Services.AddScoped<IDigimonService, DigimonService>();
 builder.Services.AddScoped<IDigimonRepository, DigimonRepository>();
-
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend",
+        policy =>
+        {
+            policy
+                .WithOrigins("http://localhost:5173")
+                .AllowAnyMethod()
+                .AllowAnyHeader();
+        });
+});
 var app = builder.Build();
 
 
